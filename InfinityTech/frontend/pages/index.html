@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfinityTech</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+
+    <!-- icons google -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header id="headerApp">
+        <ul class="listBunners">
+            <li id="img-bunner1" class="img-bunner1" onclick="changeMoney(0)">
+                <img id="img1" src="../img/bandeira-do-brasil.png" alt="">
+            </li>
+            <li id="img-bunner2" class="img-bunner2" onclick="changeMoney(1)">
+                <img id="img2" src="../img/estados-unidos-da-america.png" alt="">
+            </li>
+<<<<<<< HEAD
+            <li id="img-bunner3" class="img-bunner3" onclick="changeMoney(2)">
+                <img id="img3" src="../img/euro_img.png" alt="">
+            </li>
+            <li id="img-bunner4" class="img-bunner4" onclick="changeMoney(3)">
+                <img id="img4" src="../img/libra_img.png" alt="">
+            </li>
+=======
+            <!-- <li id="img-bunner3" class="img-bunner3" onclick="changeMoney()">
+                <img id="img3" src="../img/united-kingdom.png" alt="">
+            </li>
+            <li id="img-bunner4" class="img-bunner4" onclick="changeMoney()">
+                <img id="img4" src="../img/germany.png" alt="">
+            </li> -->
+>>>>>>> a38edfe6e22c92983e600e93275be5358f0d113e
+        </ul>
+    </header>
+
+    <div id="containerSideMenu">
+        <div id="contentSideMenu">
+
+        </div>
+        <button id="buttonSideMenu" onclick="openMenu()">
+            <span id="iconMenu" class="material-symbols-outlined">
+                chevron_right
+            </span>
+        </button>
+    </div>
+        
+    <div class="container">
+        <div class="elemento1">
+            <img src="../img/infinity_logo.png" alt="Logo" id="Logo">
+        </div>
+        <div class="elemento2" id="barra">
+            <input type="text" name="" id="search" placeholder="Pesquisar Banco" onblur="search()" >
+            <div class="search-btn" onclick="search()"> 
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="bancos" id="bancos_classe">
+        
+    </div>
+    <div id="conteudo"></div>
+
+    <script src="./openSideMenu.js"></script>
+    <script src="./searchIntoApi.js"></script>
+    <script src="./chartMenu.js"></script>
+    <script src="./moneyChange.js"></script>
+</body>
+</html>
